@@ -6,7 +6,7 @@ pipeline {
         stage('checkout') {
             steps {
 
-                git branch: 'good-cheap-fast', url: 'https://github.com/kuslapur/50projects.git'a
+                git branch: 'good-cheap-fast', url: 'https://github.com/kuslapur/50projects.git'
             }
         }
         stage('Build') {
