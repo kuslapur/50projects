@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     stages {
-        stage('Hello') {
+        stage('Hello x') {
             steps {
                 git branch: 'feedback-ui-design', url: 'https://github.com/kuslapur/50projects.git'
             }
