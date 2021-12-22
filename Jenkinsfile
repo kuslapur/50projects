@@ -14,7 +14,7 @@ pipeline {
         }
         stage('deploy'){
             steps {
-               sh 'docker run -p 80:80 develop -d'
+               sh 'docker run -d -p 80:80 develop'
             }
         }
       
