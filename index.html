@@ -4,25 +4,16 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <title>Animated Countdown</title>
+    <title>Auto Text Effect</title>
   </head>
   <body>
-    <div class="counter">
-      <div class="nums">
-        <span class="in">3</span>
-        <span>2</span>
-        <span>1</span>
-        <span>0</span>
-      </div>
-      <h4>Get Ready</h4>
+    <h1 id="text">Starting...</h1>
+
+    <div>
+      <label for="speed">Speed:</label>
+      <input type="number" name="speed" id="speed" value="1" min="1" max="10" step="1">
     </div>
 
-    <div class="final">
-      <h1>GO</h1>
-      <button id="replay">
-        <span>Replay</span>
-      </button>
-    </div>
     <script src="script.js"></script>
   </body>
 </html>
