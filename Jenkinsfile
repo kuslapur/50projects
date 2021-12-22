@@ -17,7 +17,7 @@ pipeline {
 
         stage('run image') {
             steps {
-                sh 'docker run -d -p 80:80 develop'
+                sh 'docker run -p 80:80 develop -d'
             }
         }
     }
