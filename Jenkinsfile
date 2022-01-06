@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('fetch_code') {
             steps {
-                git branch: 'auto-text-effect', url: 'https://github.com/kuslapur/50projects.git'
+                git branch: 'expanding-cards', url: 'https://github.com/kuslapur/50projects.git'
             }
         }
         stage('Build') {
