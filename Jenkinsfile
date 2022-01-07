@@ -1,5 +1,7 @@
 pipeline {
-    agent slave
+    agent {
+           slave
+      }
 
     stages {
         stage('fetch_code') {
